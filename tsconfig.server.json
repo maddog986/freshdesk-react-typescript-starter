@@ -7,11 +7,8 @@
     "noImplicitAny": true,
     "moduleResolution": "node",
     "sourceMap": true,
-    "outDir": "./server",
-    "paths": {
-      "*": ["node_modules/*"]
-    }
+    "outDir": "./server"
   },
   "include": ["src/server/**/*.ts"],
-  "exclude": ["src/server/**/*.test.ts"]
+  "exclude": ["node_modules"]
 }

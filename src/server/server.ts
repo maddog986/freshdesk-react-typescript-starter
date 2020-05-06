@@ -4,7 +4,7 @@ exports = {
 
   // args is a JSON block containing the payload information.
   // args["iparam"] will contain the installation parameter values.
-  onTicketCreateHandler: function (args) {
+  onTicketCreateHandler: function (args: any) {
     console.log("Hello" + args["data"]["requester"]["name"]);
   },
 };

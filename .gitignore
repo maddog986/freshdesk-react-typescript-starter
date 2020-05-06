@@ -8,3 +8,4 @@ coverage
 app/*
 .vscode
 .fdk
+server/*
