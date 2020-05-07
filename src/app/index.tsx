@@ -1,11 +1,9 @@
 // import styles for public side
 import * as React from "react";
 import * as ReactDOM from "react-dom";
-import { FreshdeskApp, FreshdeskClient } from "../types";
+import { app, FreshdeskClient } from "../types";
 import App from "./containers/App/index";
 import "./index.scss";
-
-declare var app: FreshdeskApp; // freshdesk app. loaded in html
 
 // boolean to prevent React app from being reinitialized
 let appActivated = false;

@@ -1,4 +1,5 @@
-// freshdesk client
+export declare var app: FreshdeskApp; // freshdesk app. loaded in html
+
 export interface FreshdeskClient {
   events?: FreshdeskEvents;
   data?: FreshdeskData;
